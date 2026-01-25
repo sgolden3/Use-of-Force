@@ -1,19 +1,7 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2761
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 TimesNewRomanPSMT;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11120\viewh19140\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+Use of Force Database Assumptions
 
-\f0\fs24 \cf0 \
-
-\f1 Use of Force Database Assumptions\
-\
-- Case ID is unique and cannot contain null/missing data.\
-- All Non-Case ID columns can contain null values.\
-- Each subject in this database is assumed to have one race and gender classification.\
-- Subject and officer can have multiple classes.\
+- Case ID is unique and cannot contain null/missing data.
+- All Non-Case ID columns can contain null values.
+- Each subject in this database is assumed to have one race and gender classification.
+- Subject and officer can have multiple cases.
 - Each case ID has one location.
-\f0 \
-\
-}
