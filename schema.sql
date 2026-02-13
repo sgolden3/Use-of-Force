@@ -21,4 +21,19 @@ CREATE TABLE Subject (
 CREATE TABLE Officer (
 	Officer_ID TEXT PRIMARY KEY
 );
-	
+
+CREATE TABLE Instance_Officer (
+   ID TEXT NOT NULL,
+   Officer_ID TEXT NOT NULL,
+   PRIMARY KEY (ID, Officer_ID),
+   FOREIGN KEY (ID) REFERENCES Instance(ID),
+   FOREIGN KEY (Officer_ID) REFERENCES Officer(Officer_ID)
+);
+
+CREATE TABLE Instance_Subject (
+   ID TEXT NOT NULL,
+  Subject_ID TEXT NOT NULL,
+   PRIMARY KEY (ID, Subject_ID),
+   FOREIGN KEY (ID) REFERENCES Instance(ID),
+   FOREIGN KEY (Subject_ID) REFERENCES Subject(Subject_ID)
+);
