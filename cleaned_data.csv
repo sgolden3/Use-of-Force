@@ -1,0 +1,5 @@
+ID,Incident_Type,Date_Time,Officer_ID,Subject_ID,Subject_Race,Subject_Gender,Year,Month
+2015UOF-0072-1204-3004,Level 2 - Use of Force,2015-01-19 15:00:00,1634,2984,White,Male,2015,1
+2015UOF-1321-1306-5300,Level 2 - Use of Force,2015-08-03 15:30:00,1615,5261,White,Male,2015,8
+2020UOF-1310-1097-23017,Level 2 - Use of Force,2020-07-19 15:35:00,1672,23898,Nat Hawaiian/Oth Pac Islander,Male,2020,7
+2022UOF-1269-2902-29489,Level 2 - Use of Force,2022-11-10 06:29:00,5708,30362,White,Female,2022,11
