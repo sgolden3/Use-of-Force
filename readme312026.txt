@@ -1,0 +1,16 @@
+readme.txt : short write-up (1–2 pages max):
+
+What optimizations made the biggest difference?
+
+According to our time query, after optimizations all of our joins still ran at the time. Question one ran in 0.0012 seconds and questions two and three both ran 
+in 0.0006 seconds before and after optimization. Therefore, none of our optimizations made a clear difference. This is likely because we had only a small amount of data in our database.
+
+Did you face limitations with SQLite or pandas?
+
+A limitation included integrating SQLite code with python in a database that has already been created on SQL and that has been saved as a CSV. 
+Starting out from an established database saved as a CSV file meant that additional code was needed to copy the database into SQLite and python before starting SQL commands.
+
+Would these techniques scale in a real system?
+
+Yes, these techniques would scale in a real system. Indexing and correlated subqueries would become even more helpful and efficient with an increased amount of data. 
+It's important to note that indexing may slow down insert, update and delete operations.
