@@ -35,7 +35,7 @@ After cleaning, both datasets were structured so they could be integrated into t
 
 Throughout our project, we were able to create queries and insights consisting of:
    - Filter our datasets based on the subject's race inviolved in a given use-of-force incident.
-   - Cases where inidivudals have encountered more than one use-of-force incident.
+   - Cases where individuals have encountered more than one use-of-force incident.
    - Discovering specific use-of-force types that an officer has been involved in.
    - Integration of subjects and officers who were involved in a given incident.
    - In terms of data cleaning, we made filtering our database more efficient by creating columns for month and year of a given incident.
