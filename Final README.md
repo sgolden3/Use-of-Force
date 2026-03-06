@@ -21,6 +21,12 @@ After cleaning, both datasets were structured so they could be integrated into t
 
 5. Summary of key insights
 
+Throughout our project, we were able to create queries and insights consisting of:
+   - Filter our datasets based on the subject's race inviolved in a given use-of-force incident.
+   - Cases where inidivudals have encountered more than one use-of-force incident.
+   - Discovering specific use-of-force types that an officer has been involved in.
+   - Integration of subjects and officers who were involved in a given incident.
+   - In terms of data cleaning, we made filtering our database more efficient by creating columns for month and year of a given incident.
 
 6. Challenges your team faced and decisions made
    - Working with large real-world datasets and deciding how to structure them in a relational database was a significant challenge. Both of the datasets contained many variables that needed to be narrowed down, as not all of them were useful for our research question. As a result, we had to spend time reviewing the data and determining which fields should actually be included in our schema. This process helped us think more carefully about how database design affects our analyses in the future.
