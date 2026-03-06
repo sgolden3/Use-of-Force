@@ -7,7 +7,19 @@ https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj/about_data
 Unauthorized encampments dataset:
 https://data.seattle.gov/City-Administration/Unauthorized-Encampment-Reports/k7ra-jqqe/about_data
 
+1. Project Domain and Goals
 
+This project focuses on analyzing Seattle Police Department use-of-force incidents using a relational database system. The goal of the project is to organize incident, officer, subject, and location data into a structured schema that supports meaningful queries and analysis. By integrating additional contextual data such as unauthorized encampment reports, the dataset can provide more insight into patterns surrounding use-of-force events across different precincts and regions of the city. 
+
+Throughout the project, our team built SQL queries to explore relationships between incidents, officers, and subjects, and used Python and pandas to clean and transform external datasets through an ETL pipeline. In the final stage, we focused on improving query performance by applying database indexing and pandas optimization techniques to evaluate how data access patterns can be made more efficient.
+
+2. Schema design and structure
+
+The database schema was designed to represent the key entities involved in Seattle Police Department use-of-force incidents while maintaining normalized relationships between them. The core table, Instance, stores information about each use-of-force incident, including identifiers, incident type, and occurrence time. Additional tables represent related entities such as Officer, Subject, and Location, allowing the system to capture attributes specific to each entity without duplicating data. 
+
+Because multiple officers and subjects can be associated with the same incident, the schema uses junction tables (Instance_Officer and Instance_Subject) to model these many-to-many relationships. This structure allows each incident to link to multiple officers and subjects while maintaining referential integrity through primary and foreign keys. 
+
+Overall, the schema supports efficient joins, filtering, and aggregation queries, making it suitable for analyzing relationships between incidents, individuals involved, and geographic context.
 
 4. Data Cleaning and Transformation Strategies
 
